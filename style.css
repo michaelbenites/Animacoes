@@ -99,7 +99,7 @@ section#redes-sociais img:hover{
     }
     section#redes-sociais img{
         position: relative;
-        top: 2vh;
+        top: 2.001vh;
         width: 40px;
     }
 }
