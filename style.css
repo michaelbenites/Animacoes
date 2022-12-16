@@ -55,7 +55,7 @@ section#redes-sociais img:hover{
     
 }
 
-@media only screen and (max-width:508px){
+@media only screen and (max-width:600px){
     section#telefone{
         display: flex;
         justify-content: center;
@@ -72,6 +72,30 @@ section#redes-sociais img:hover{
     }
     section#telefone img{
         height: 530px;
+    }
+    section#redes-sociais img{
+        position: relative;
+        top: 2vh;
+        width: 40px;
+    }
+}
+@media only screen and (max-height:667px){
+    section#telefone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 311px;
+        background-repeat: no-repeat;
+    }
+    iframe#tela{
+        position: absolute;
+        top: 153px;
+        left: 65px;
+        width:181px;
+        height: 323px;
+    }
+    section#telefone img{
+        height: 430px;
     }
     section#redes-sociais img{
         position: relative;
